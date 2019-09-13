@@ -11,7 +11,7 @@ from keras.optimizers import Adam
 from keras.preprocessing.image import img_to_array
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
-from pyimagesearch.smallervggnet import SmallerVGGNet
+from models.smallervggnet import SmallerVGGNet
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import keras
